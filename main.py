@@ -14,6 +14,8 @@ for i in range(n):
     if is_square(a):
         s += 1
 
+# new change
+
 print('Prime numbers total: ' + str(c))
 print('Even numbers total: ' + str(e))
 print('Special numbers total: ' + str(s))
