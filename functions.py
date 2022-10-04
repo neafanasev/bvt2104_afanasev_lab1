@@ -7,3 +7,6 @@ def is_prime(n):
             return False
     return True
 
+def is_even(n):
+    return (n + 1) % 2
+
