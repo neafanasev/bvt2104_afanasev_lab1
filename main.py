@@ -4,16 +4,11 @@ from functions import is_prime
 
 
 n = int(input('Enter count of numbers: '))
-arr = []
+c = 0
 
 print('Enter numbers: ')
 for i in range(n):
-    a = int(input())
-    arr.append(a)
-
-c = 0
-for i in arr:
-    if is_prime(i):
+    if is_prime(int(input())):
         c += 1
 
 print('Prime numbers total: ' + str(c))
