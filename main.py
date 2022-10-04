@@ -11,7 +11,7 @@ for i in range(n):
         c += 1
     if is_even(a):
         e += 1
-    if is_odd(a):
+    if is_square(a):
         s += 1
 
 print('Prime numbers total: ' + str(c))
